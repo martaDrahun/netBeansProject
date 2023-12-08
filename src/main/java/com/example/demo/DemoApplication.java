@@ -11,6 +11,9 @@ public class DemoApplication {
                 System.out.println("hello");
 	}
         
-		
+	public static void ma(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+                System.out.println("hello");
+	}	
 	
 }
